@@ -15,5 +15,11 @@ public class UserInput
         System.out.println();
     }
 
+    public String getDealersName()
+    {
+        System.out.println("Enter dealer name: ");
+        return scanner.nextLine().strip();
+    }
+
 
 }

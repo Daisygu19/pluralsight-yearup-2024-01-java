@@ -30,7 +30,6 @@ public class Vehicle
         this.model = model;
         this.type = type;
         this.color = color;
-        Vehicle = vehicle;
     }
 
     public int getVin() {
